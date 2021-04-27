@@ -50,73 +50,9 @@
 ![step 8c](https://user-images.githubusercontent.com/56548203/116185768-7491d700-a74c-11eb-835f-12e888e16b19.PNG)
 
 ### 9. Membuat form :
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Daftar Menu</title>
-<script language="JavaScript">
- 	function test () {
- 		var val1=document.kirim.T1.value
- 		if (val1%2==0)
- 			document.kirim.T2.value="bilangan genap"
- 		else
- 			document.kirim.T2.value="bilangan ganjil"
- 	}
- </script>
-
-  <script>
- 	function hitung(ele) {
- 		var total = document.getElementById('total').value;
- 			total = (total ? parseInt(total) : 0);
- 		var harga = 0;
-
- 		if (ele.checked) {
- 			harga = ele.value;
- 			if (total > 0)
- 				total -= parseInt(harga);
- 		}
- 		document.getElementById('total').value = total;
- 	}
- </script>
-</head>
-<body>
-<form method="POST" name="kirim">
-		<p>BIL <input type="text" name="T1" size="20"> MERUPAKAN BIL <input type="text" name="T2" size="20"required minlength="Mohon Isi"></p>
-		<p><input type="button" value="TEBAK" name="B1" onclick=test()></p>	
-</form>
-<script language="JavaScript">
- 	<!--
- 		function ubahWarnaLB(warna) {
- 			document.bgColor = warna;
- 		}
- 		function ubahWarnaLD(warna) {
- 			document.fgColor = warna;
- 		}
- 	//-->
- </script>
-
- <h1>tes</h1>
-<form>
-	<input type="button" value="Latar Belakang Magenta" onclick="ubahWarnaLB('MAGENTA')">
-	<input type="button" value="Latar Belakang Putih" onclick="ubahWarnaLB('WHITE')">
-	<input type="button" value="Teks Emas" onclick="ubahWarnaLD('GOLD')">
-	<input type="button" value="Teks Putih" onclick="ubahWarnaLD('WHITE')">
-</form>
-<script language="JavaScript">
-	<!--
-		document.write("Dimodifikasi terakhir pada " + document.lastModified);
-		//-->
-</script>
-
-<h1>Daftar Menu Makanan</h1>
- <label><input type="checkbox" value="8000" id="menu1" onclick="hitung(this) ;" />Jahe Susu Rp. 8.000</label><br />
- <label><input type="checkbox" value="3000" id="menu2" onclick="hitung(this) ;" />Nasi Kucing Rp. 3.000</label><br />
- <label><input type="checkbox" value="5000" id="menu3" onclick="hitung(this) ;" />Aneka Sate Rp. 5.000</label><br />
- <strong>Total Bayar: Rp. <input id="Total" type="Text"></strong>
- <input type="button" value="HITUNG" name="B1" onclick=hitung()>
-</body>
-</html> 
-
+![code 9a](https://user-images.githubusercontent.com/56548203/116186331-9770bb00-a74d-11eb-91bd-eb4914796f52.PNG)
+![code 9b](https://user-images.githubusercontent.com/56548203/116186333-9a6bab80-a74d-11eb-9303-8776a926450f.PNG)
+![code 9c](https://user-images.githubusercontent.com/56548203/116186340-9d669c00-a74d-11eb-80a0-81a68af814e4.PNG)
 ### Maka Hasilnya seperti ini :
 ![step9](https://user-images.githubusercontent.com/56548203/116185822-93906900-a74c-11eb-8859-42407d018e06.PNG)
 
